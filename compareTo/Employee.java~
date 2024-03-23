@@ -1,0 +1,57 @@
+public class Employee implements Comparable<Employee>{
+
+    String name;
+    int id;
+    double salary;
+
+    public Employee(String name, int id, double salary){
+        name = this.name;
+        id = this.id;
+        salary = this.salary
+
+    }
+
+    public String getName(){
+        return this.name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getId(){
+        return this.id;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+
+    public double getSalary(){
+        return this.salary;
+    }
+    public void setSalary(double salary){
+        this.salary = salary;
+    }
+
+    @Override
+    public int compareTo(Employee o){
+        if (this.id - o.id == 0){
+            return this.name.compareTo(o.name);
+        }
+        
+    }
+
+public static void main(String[] args){
+    Employee[] employees = new Employee[5];
+    employees[0] = new Employee(“Ali”, 123, 10000);
+    employees[1] = new Employee(“Veli”, 3213, 20000);
+    employees[2] = new Employee(“Seher”, 34511, 15000);
+    employees[3] = new Employee(“Elif”, 5422, 14000);
+    employees[4] = new Employee(“Sema”, 435, 33000);
+
+}
+
+
+
+
+
+}
