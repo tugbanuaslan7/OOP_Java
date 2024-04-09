@@ -1,5 +1,3 @@
-// Tuğba Nur Aslan, 210101030
-
 public class HW2 {
 
 
