@@ -107,6 +107,8 @@ public class Painter2 extends Application {
     primaryStage.show(); // Display the window
   }
 
+
+  
   public static void main(String[] args) {
     Application.launch(args);
   }
