@@ -1,5 +1,3 @@
-// Tuğba Nur Aslan 210101030
-
 import java.util.NoSuchElementException;
 
 public class SortableStack<T extends Comparable<T>>{
